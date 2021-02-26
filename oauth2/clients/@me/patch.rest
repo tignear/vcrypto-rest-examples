@@ -1,0 +1,8 @@
+PATCH  https://localhost:4000/oauth2/clients/@me
+Authorization: Bearer eyJhbGciOiJIUzUxMiIsInR5cCI6IkpXVCJ9.eyJhdWQiOiJ2aXJ0dWFsQ3J5cHRvIiwiZXhwIjoxNjE0MzQxODEwLCJpYXQiOjE2MTQzMzgyMTAsImlzcyI6InZpcnR1YWxDcnlwdG8iLCJqdGkiOiJjZWU2MTE2YS04N2U1LTRkMWQtOWJjYy0yMDRlZmM5OTU0YjgiLCJraW5kIjoiYXBwIiwibmJmIjoxNjE0MzM4MjA5LCJzY29wZXMiOlsib2F1dGgyLnJlZ2lzdGVyIl0sInN1YiI6IjQiLCJ0eXAiOiJhY2Nlc3MifQ.TD-B0j6FwiH3wNE5CEgtNkj2zF6stn5jOrb_f1S8zGNf7hPEdv4Ub7tW1sbkw4XTz3f4vDks3ti9rjfKnhclgg
+Content-Type: application/json
+
+{
+  "redirect_uris" : ["https://example.com/cb"],
+  "client_uri" : "https://example.com/nyan"
+}

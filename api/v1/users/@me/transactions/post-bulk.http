@@ -1,0 +1,22 @@
+
+POST https://localhost:4000/api/v1/users/@me/transactions
+Content-Type: application/json
+Authorization: Bearer eyJhbGciOiJIUzUxMiIsInR5cCI6IkpXVCJ9.eyJhdWQiOiJ2aXJ0dWFsQ3J5cHRvIiwiZXhwIjoxNjE1NzIyMzIzLCJpYXQiOjE2MTU3MTg3MjMsImlzcyI6InZpcnR1YWxDcnlwdG8iLCJqdGkiOiJmZjQ5ZjlkNS1lMGVmLTRiNmEtOGU5OS0zYzYzODVhM2EwNzAiLCJraW5kIjoidXNlciIsIm5iZiI6MTYxNTcxODcyMiwic2NvcGVzIjpbIm9hdXRoMi5yZWdpc3RlciIsInZjLnBheSIsInZjLmNsYWltIl0sInN1YiI6IjEiLCJ0eXAiOiJhY2Nlc3MifQ.IgasMAHUmgzBevke0mPtwNXtF9jf-Kn1-3Tdieo4jlDNxX_9964cDnMr9PqzZ3sWVe9TCL-g36MkY55nb7c3-g
+
+[
+  {
+    "receiver_discord_id": "408939071289688064",
+    "amount":  "100",
+    "unit": "n"
+  },
+  {
+    "receiver_discord_id": "212513828641046529",
+    "amount":  "200",
+    "unit": "n"
+  },
+  {
+    "receiver_discord_id": "212513828641046529",
+    "amount":  "10000",
+    "unit": "w"
+  }
+]
